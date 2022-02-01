@@ -1,0 +1,22 @@
+.backRow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.backButton {
+  width: 44px;
+  height: 44px;
+  background-color: #21212B;
+  background-image: url('../../assets/back.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 61%;
+  border-radius: 16px;
+  margin-right: 16px;
+  cursor: pointer;
+}

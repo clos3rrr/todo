@@ -1,0 +1,14 @@
+.button {
+  justify-self: flex-end;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: url('../../../../assets/spread.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 12px;
+}
+
+.button:hover {
+  background: url('../../../../assets/spreadHover.svg');
+}

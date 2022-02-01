@@ -1,0 +1,17 @@
+.checkBox {
+  box-sizing: border-box;
+  height: 22px;
+  width: 22px;
+  border-radius: 8px;
+  /* background-color: rgb(252, 118, 161); */
+  border: 3px solid rgb(252, 118, 161);
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+.checked {
+  background-color: rgb(252, 118, 161);
+  background-image: url('../../../assets/done.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}

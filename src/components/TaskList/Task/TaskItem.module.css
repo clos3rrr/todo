@@ -1,0 +1,40 @@
+.taskList__item {
+  position: relative;
+  box-sizing: border-box;
+  max-width: 730px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  padding: 12px 12px;
+  width: 100%;
+  background: #21212B;
+  border-radius: 16px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.taskList__item + .taskList__item {
+  margin-bottom: 10px;
+}
+
+.taskList__item_name {
+  max-width: 628px;
+  width: 100%;
+  overflow-x: hidden;
+  flex-grow: 1;
+  flex-shrink: 2;
+}
+
+.taskList__item_priority {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  right: 0;
+  top: 0;
+}
+
+
+
